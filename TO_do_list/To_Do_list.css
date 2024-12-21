@@ -81,7 +81,7 @@ ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-image: url(images/unchecked.png);
+    background-image: url(images/checked.jpg);
 }
 ul li span{
     position: absolute;
@@ -97,9 +97,4 @@ ul li span{
 
 }ul li span:hover{
     background: #edeef0;;
-}
-
-ul li span::before{
-    background:#edeef0 ;
-
 }
