@@ -2,7 +2,7 @@ const inputbox=document.getElementById("input-box");
 const listcontainer=document.getElementById("list-container");
 function addTask(){
     if(inputbox.value==''){
-        alert("You must write something the task add");
+        alert("You must write something add the task ");
     }
     else{
         let li=document.createElement("li");
@@ -22,7 +22,7 @@ listcontainer.addEventListener("click",function(e){
         e.target.classList.toggle("checked");
         saveData();
     }
-    else if(e.target.tagname == "SPAN"){
+    else if(e.target.tagName == "SPAN"){
         e.target.parentElement.remove();
         saveData();
     }
